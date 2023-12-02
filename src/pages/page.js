@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 
 const rubik = Kanit({ weight: "400", subsets: ["latin"] });
 
-const apiUrl = "https://back-include-find-api.onrender.com";
+const apiUrl = "https://backend-cenario2.onrender.com";
 // const apiUrl = process.env.API_URL;
 
 export default function Home() {
