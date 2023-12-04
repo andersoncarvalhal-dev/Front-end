@@ -7,7 +7,7 @@ import { useEffect, useState } from "react";
 const rubik = Kanit({ weight: "400", subsets: ["latin"] });
 
 const apiUrl = "https://backend-cenario2.onrender.com";
-// const apiUrl = process.env.API_URL;
+
 
 export default function Home() {
   const [name, setName] = useState("");
@@ -92,7 +92,7 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <div className={styles.top}>
-          <p className={rubik.className}>SITE - CENÁRIO 2</p>
+          <p className={rubik.className}>CENÁRIO 2</p>
         </div>
         <div className={styles.middle}>
           <div className={styles.containerOptions}>
