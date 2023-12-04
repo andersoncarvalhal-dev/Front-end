@@ -101,7 +101,7 @@ export default function Home() {
                 maxLength={20}
                 className={styles.input}
                 type="text"
-                placeholder="Nome"
+                placeholder="Insira um nome"
                 name="name"
                 onChange={changeInput}
               />
@@ -132,7 +132,7 @@ export default function Home() {
           </div>
         </div>
         <div className={styles.bottom}>
-          <p className={rubik.className}>UFMA - 2023 &copy;</p>
+          <p className={rubik.className}>UFMA - 2023</p>
         </div>
       </main>
     </>
